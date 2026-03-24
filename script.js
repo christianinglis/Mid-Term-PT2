@@ -35,3 +35,10 @@ function remaining(rem){
 let interestpaid = rem * monthlyinterestrate
 let principleloanpaid = remleft * interestpaid
 let remainingloan = remleft * principleloanpaid 
+
+
+function calcmonthlypay(principle, annualinterestrate, totalmonths){
+    const monthrate = annualinterestrate / 12;
+    const monthnums = totalmonths * 12;
+    return monthlypayment
+}
