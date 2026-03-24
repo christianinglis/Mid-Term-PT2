@@ -18,9 +18,20 @@ let monthlypayment = ((monthlyinterestrate * principleloanamount) / (1 - Math.po
 let totalinterestpaid = (monthlypayment * totalmonths) - principleloanamount
 let loancost = principleloanamount + totalinterestpaid
 
+const button = document.getElementById("Button")
+const div1 = document.getElementById("schedule")
+
 button.addEventListener("click")
     div1.innerHTML = "The loan term is " + loanterm + "The Annual Interest Rate is " + annualinterestrate + "The Monthly Interest Rate is "
     + monthlyinterestrate + "The Principle Loan Amount is " + principleloanamount + "The Total interest paid is "
     + totalinterestpaid + "The Total Loan Cost is " + totalloancost + "The Monthly Payment is " + monthlypayment
 
-let 
+let rem = principleloanamount
+function remaining(rem){
+    rem = principle
+    return remleft
+}
+
+let interestpaid = rem * monthlyinterestrate
+let principleloanpaid = remleft * interestpaid
+let remainingloan = remleft * principleloanpaid 
